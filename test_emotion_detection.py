@@ -10,6 +10,7 @@ class TestEmotionalAnalyzer(unittest.TestCase):
         self.assertEqual(test1, "joy")
         self.assertEqual(test1, "anger")
         self.assertEqual(test1, "disgust")
+        
         self.assertEqual(test1, "sadness")
         self.assertEqual(test1, "fear")
 
